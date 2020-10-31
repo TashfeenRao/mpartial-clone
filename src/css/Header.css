@@ -1,11 +1,12 @@
 .header__container {
   background: transparent;
-  position: fixed;
   border-bottom: 1px solid hsla(0, 0%, 100%, 0.5);
 }
 
 .nav__container {
   display: flex;
+  background: transparent;
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.5);
 }
 .nav__brand {
   flex: 1.7;
