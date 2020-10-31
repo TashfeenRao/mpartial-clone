@@ -1,10 +1,10 @@
 import React from 'react'
-import Navbar from './Navbar'
+import NavbarComp from './Navbar'
 
 export default function Header() {
   return (
-    <header>
-      <Navbar />
+    <header className="">
+      <NavbarComp />
     </header>
   )
 }
