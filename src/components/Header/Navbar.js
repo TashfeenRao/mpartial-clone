@@ -7,7 +7,7 @@ export default function NavbarComp() {
   return (
     <Navbar
       collapseOnSelect
-      expand="lg"
+      expand="md"
       className="nav__container"
     >
       <Navbar.Brand href="#home" className="nav__brand">

@@ -5,7 +5,7 @@
   position: relative;
   background: #000;
 }
-.banner__videoCont {
+.banner__videoCon {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -16,8 +16,8 @@
 }
 .banner__video {
   position: absolute;
-  width: 1349px;
-  height: 758.812px;
-  top: -229.406px;
+  width: 100%;
+  height: 1058.812px;
+  top: -205.906px;
   left: 0px;
 }

@@ -1,16 +1,15 @@
 import React from "react";
 import { Player } from "video-react";
 import "../../css/Banner.css";
+import backVideo from "../../images/homepage.mp4";
 
 export default function Banner() {
   return (
     <div className="banner__container">
-      <div className="banner__videoCont">
-        <div className="banner__video">
-          <Player>
-            <source src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4" />
-          </Player>
-        </div>
+      <div className="banner__videoCon">
+        <video autoPlay loop muted className="banner__video">
+          <source src={backVideo} type="video/mp4" />
+        </video>
       </div>
     </div>
   );
