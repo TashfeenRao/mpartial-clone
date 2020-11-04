@@ -3,7 +3,7 @@ import SliderCom from "./Slider";
 
 export default function WaterFall() {
   return (
-    <div className="container waterfall_container">
+    <div className="container waterfall_container mt-5">
       <div className="row">
         <div className="col-md-12 text-center">
           <h1 className="display-4 font-weight-bold">
