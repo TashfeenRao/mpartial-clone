@@ -1,10 +1,10 @@
 import React from "react";
 import "../../css/VideosComp.css";
-import icon from '../../images/play-rounded-button (1).png'
+import icon from "../../images/play-rounded-button (1).png";
 
 export default function VideosComp() {
   return (
-    <div className="container">
+    <div className="container videoComp__container">
       <div className="row">
         <div className="col-md-12 text-center videocom__text">
           Pre-Mitigation Scan + Post-Mitigation Scan = ESX & SKX

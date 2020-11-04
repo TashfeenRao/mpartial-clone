@@ -1,4 +1,6 @@
 import Banner from "./components/Banner/Banner";
+import ContactFrom from "./components/ContactForm/ContactFrom";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import HowItWork from "./components/HowItWork/HowItWork";
 import SectionInfo from "./components/SectionInfo/SectionInfo";
@@ -14,6 +16,8 @@ function App() {
       <HowItWork />
       <WaterFall />
       <VideosComp />
+      <ContactFrom />
+      <Footer />
     </>
   );
 }

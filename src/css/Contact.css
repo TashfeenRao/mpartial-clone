@@ -1,0 +1,56 @@
+form {
+  margin-top: 30px;
+}
+.contact__input {
+  font-size: 14px !important;
+  width: 100% !important;
+  border: 1px solid rgba(10, 81, 105, 0.5) !important;
+  border-radius: 10px !important;
+  padding: 25px 15px !important;
+  outline: none !important;
+}
+
+.form-group {
+  position: relative;
+}
+.form-control {
+  height: 40px;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+
+label {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  transition: all 0.3s;
+  color: #999;
+  font-weight: normal;
+}
+
+.form-control:focus ~ label {
+  left: 5px;
+  top: -10px;
+  background: #fff;
+  padding: 0 5px;
+}
+
+label.active {
+  left: 5px;
+  top: -10px;
+  background: #fff;
+  padding: 0 5px;
+}
+.contact__submit {
+  background-color: #3ac280;
+  width: 150px;
+  padding: 12px;
+  border-color: #3ac280 !important;
+  border-style: none;
+  border-radius: 20px;
+}
+.contact__submit:hover {
+  border-color: #3ac280 !important;
+  background-color: #3ac280 !important;
+}
